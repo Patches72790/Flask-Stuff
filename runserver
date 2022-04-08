@@ -1,0 +1,6 @@
+#!/bin/bash
+
+export OBJC_DISABLE_INITIALIZE_FORK_SAFETY="YES"
+export GEVENT_SUPPORT=1
+
+gunicorn -c gunicorn.py run:app

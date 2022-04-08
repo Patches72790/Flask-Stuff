@@ -1,4 +1,4 @@
-from ..server.routes import basic_routes
+from .routes import basic_routes
 
 
 def register_routes(app):
