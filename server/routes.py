@@ -21,5 +21,6 @@ def login():
 @basic_routes.route("/fun_stuff", methods=["GET"])
 #@fun_decorator
 def fun_stuff():
+
     print("This is a fun route")
     return "OK"

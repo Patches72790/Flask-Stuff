@@ -1,5 +1,5 @@
 run: 
-	gunicorn -c gunicorn.py run:app
+	flask run --no-debugger --no-reload
 
 debug:
 	sh debugserver

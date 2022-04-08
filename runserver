@@ -1,6 +1,8 @@
 #!/bin/bash
 
-export OBJC_DISABLE_INITIALIZE_FORK_SAFETY="YES"
-export GEVENT_SUPPORT=1
+#export OBJC_DISABLE_INITIALIZE_FORK_SAFETY="YES"
+#export GEVENT_SUPPORT=1
+export PYDEVD_USE_CYTHON="YES"
+export PYDEVD_USE_FRAME_EVAL="YES"
 
 gunicorn -c gunicorn.py run:app
