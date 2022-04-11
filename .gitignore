@@ -2,4 +2,6 @@ __pycache__
 __pycache__/
 __pycache__/**/*
 
+debugpy_log
 debugpy_log/
+
